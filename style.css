@@ -155,3 +155,62 @@
 
 
 
+.game-rules {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/bg-grid.png");
+    background-size: cover;
+    min-height: 600px;
+    margin-top: 130px;
+
+}
+.game-rules__text {
+    width: 60%;
+
+}
+.game-rules__title {
+    font-size: 2.5em;
+    font-weight: bold;
+    position: relative;
+    top:-120px;
+    left: 30px;
+}
+.game-rules__description {
+    position: relative;
+    top:-80px;
+    left: 30px;
+    font-size: 1.7em;
+    max-width: 1000px;
+}
+.game-rules__image {
+    padding-inline: 5%;
+}
+.game-rules__photo {
+    max-width:100%;
+    width: 500px;
+    min-width: none;
+    padding-bottom: 10px;
+}
+
+
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #333333;
+    align-items: center;
+    color: #969696;
+    min-height: 50px;
+}
+.footer__element {
+    padding: 15px;
+}
+.footer__element--color {
+    color: #e2e0e0;
+    font-weight:bold;
+}
